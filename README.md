@@ -15,6 +15,8 @@ The `notebook-ci-template` repository serves as a foundational template for crea
 To set up your own repository using this template, follow these steps:
 
 ### 1. Create a New Repository
+#### For internel users:
+    
 
 - Navigate to the [notebook-ci-template repository](https://github.com/spacetelescope/notebook-ci-template).
 - Click the **"Use this template"** button to generate a new repository under your GitHub account.
