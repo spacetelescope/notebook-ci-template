@@ -4,6 +4,10 @@
 # links are skipped by the weekly broken-link check (the unified workflow's
 # enable-link-check). Add repository-specific exclusions below.
 
-# Auth-gated / noisy endpoints (migrated from the old broken_link_checker.yml)
+# Auth-gated endpoint (migrated from the old broken_link_checker.yml)
 acspsf\.stsci\.edu
-github\.com/spacetelescope/hst_notebooks/issues/new
+
+# "Open an issue" links on the published pages of any spacetelescope notebook
+# repo (jdat_notebooks, hst_notebooks, mast_notebooks, hellouniverse,
+# jwst-pipeline-notebooks, roman_notebooks, and the repo itself).
+github\.com/spacetelescope/[^/]+/issues/new
