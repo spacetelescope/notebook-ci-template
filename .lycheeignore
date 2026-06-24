@@ -1,0 +1,9 @@
+# Default lychee ignore list for STScI notebook repositories.
+#
+# Each non-comment line is a regular expression matched against URLs. Matching
+# links are skipped by the weekly broken-link check (the unified workflow's
+# enable-link-check). Add repository-specific exclusions below.
+
+# Auth-gated / noisy endpoints (migrated from the old broken_link_checker.yml)
+acspsf\.stsci\.edu
+github\.com/spacetelescope/hst_notebooks/issues/new
